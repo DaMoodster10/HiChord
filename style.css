@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 30px;
+  background-color: #111;
+  color: #fff;
+}
+
+select {
+  margin: 10px;
+  padding: 5px;
+}
+
+.pads {
+  margin-top: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 20px 30px;
+  font-size: 18px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
