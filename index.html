@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HiChord</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>HiChord Web App</h1>
+  <div>
+    <label for="key">Key:</label>
+    <select id="key">
+      <option value="C">C</option>
+      <option value="D">D</option>
+      <option value="E">E</option>
+      <option value="F">F</option>
+      <option value="G">G</option>
+      <option value="A">A</option>
+      <option value="B">B</option>
+    </select>
+
+    <label for="quality">Chord Type:</label>
+    <select id="quality">
+      <option value="maj">Major</option>
+      <option value="min">Minor</option>
+      <option value="7">7th</option>
+    </select>
+  </div>
+
+  <div class="pads">
+    <button data-degree="1">I</button>
+    <button data-degree="2">ii</button>
+    <button data-degree="3">iii</button>
+    <button data-degree="4">IV</button>
+    <button data-degree="5">V</button>
+    <button data-degree="6">vi</button>
+    <button data-degree="7">vii°</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
